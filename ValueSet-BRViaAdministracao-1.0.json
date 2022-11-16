@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRViaAdministracao-1.0",
+  "meta": {
+    "lastUpdated": "2021-08-27T11:51:30.604-03:00"
+  },
+  "language": "pt",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt\" lang=\"pt\"><ul><li>Include all codes defined in <a href=\"CodeSystem-BRViaAdministracao.html\"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao</code></a></li></ul></div>"
+  },
+  "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",
+  "version": "0.2.0",
+  "name": "BRViaAdministracao",
+  "title": "Via de administração de um imunobiológico",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-12T14:51:30.2531733+00:00",
+  "publisher": "Ministério da Saúde",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.gov.br/saude/pt-br"
+        }
+      ]
+    }
+  ],
+  "description": "Via de administração de um imunobiológico.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+        "version": "*"
+      }
+    ]
+  }
+}

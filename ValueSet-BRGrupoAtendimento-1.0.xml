@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRGrupoAtendimento-1.0"/>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><ul><li>Include all codes defined in <a href="CodeSystem-BRGrupoAtendimento.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento</code></a></li></ul></div>
+  </text>
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0"/>
+  <version value="0.2.0"/>
+  <name value="BRGrupoAtendimento"/>
+  <title value="Tipo de grupo de atendimento"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-12-15T16:29:40-03:00"/>
+  <publisher value="Ministério da Saúde"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gov.br/saude/pt-br"/>
+    </telecom>
+  </contact>
+  <description value="Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"/>
+      <version value="*"/>
+    </include>
+  </compose>
+</ValueSet>

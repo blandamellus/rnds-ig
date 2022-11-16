@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRDose-1.0"/>
+  <meta>
+    <lastUpdated value="2020-03-11T16:16:00.146-03:00"/>
+  </meta>
+  <language value="pt"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt"><ul><li>Include all codes defined in <a href="CodeSystem-BRDose.html"><code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose</code></a></li></ul></div>
+  </text>
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0"/>
+  <version value="0.2.0"/>
+  <name value="BRDose"/>
+  <title value="Dose Administrada no Indivíduo"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-03-11T19:16:20.2871065+00:00"/>
+  <publisher value="Ministério da Saúde"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gov.br/saude/pt-br"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet utilizado para definir o tipo da dose administrada no indivíduo."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="false"/>
+  <compose>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose"/>
+      <version value="*"/>
+    </include>
+  </compose>
+</ValueSet>
