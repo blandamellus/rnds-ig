@@ -1,0 +1,34 @@
+{
+  "resourceType": "Practitioner",
+  "id": "980016002400589",
+  "meta": {
+    "profile": [
+      "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Número de inscrição no Conselho Regional de Administração (CRA): BRACRA_123 (OFFICIAL)</p><p><b>active</b>: true</p><p><b>name</b>: Practitioner(OFFICIAL)</p></div>"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador",
+            "code": "BRACRA"
+          }
+        ]
+      },
+      "value": "BRACRA_123"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "text": "Practitioner"
+    }
+  ]
+}

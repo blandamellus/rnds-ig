@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRCondicaoMaternal",
+  "meta": {
+    "lastUpdated": "2021-08-19T14:10:22.000-03:00"
+  },
+  "language": "pt-BR",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p>This code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BRCondicaoMaternal-1\"> </a></td><td>Nenhuma</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BRCondicaoMaternal-2\"> </a></td><td>Gestante</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BRCondicaoMaternal-3\"> </a></td><td>Puérpera</td></tr></table></div>"
+  },
+  "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
+  "version": "0.2.0",
+  "name": "BRCondicaoMaternal",
+  "title": "Condição Maternal",
+  "status": "active",
+  "experimental": false,
+  "date": "2021-08-19T14:10:22-03:00",
+  "publisher": "Ministério da Saúde",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.gov.br/saude/pt-br"
+        }
+      ]
+    }
+  ],
+  "description": "Indicação da condição maternal da pessoa vacinada.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Nenhuma"
+    },
+    {
+      "code": "2",
+      "display": "Gestante"
+    },
+    {
+      "code": "3",
+      "display": "Puérpera"
+    }
+  ]
+}

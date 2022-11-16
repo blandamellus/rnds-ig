@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="rnds-brregistroimunobiologicoadministradocampanha-0"/>
+  <meta>
+    <lastUpdated value="2021-09-17T15:22:21.400-03:00"/>
+  </meta>
+  <identifier>
+    <system value="http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-10302910000182A"/>
+    <value value="12345678"/>
+  </identifier>
+  <type value="document"/>
+  <timestamp value="2021-09-17T15:22:21.369-03:00"/>
+  <entry>
+    <fullUrl value="urn:uuid:transient-0"/>
+    <resource>
+      <Composition>
+        <id value="transient-0"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: final</p><p><b>type</b>: <span title="Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RIA}">Registro de Imunobiológico Administrado</span></p><p><b>date</b>: 17/09/2021 15:22:21</p><p><b>author</b>: <span></span></p><p><b>title</b>: Registro de Imunobiologico Administrado na Campanha</p></div>
+        </text>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"/>
+            <code value="RIA"/>
+          </coding>
+        </type>
+        <subject>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="712176901347489"/>
+          </identifier>
+        </subject>
+        <date value="2021-09-17T15:22:21-03:00"/>
+        <author>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0"/>
+            <value value="41004547000495"/>
+          </identifier>
+        </author>
+        <title value="Registro de Imunobiologico Administrado na Campanha"/>
+        <section>
+          <entry>
+            <reference value="urn:uuid:transient-1"/>
+          </entry>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:transient-1"/>
+    <resource>
+      <Immunization>
+        <id value="transient-1"/>
+        <meta>
+          <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0"/>
+        </meta>
+        <text>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Grupo de Atendimento</b>: <span title="Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento 000907}">Enfermeiro(a)</span></p><p><b>status</b>: completed</p><p><b>vaccineCode</b>: <span title="Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico 15}">BCG</span></p><p><b>patient</b>: <span></span></p><p><b>occurrence</b>: 2020-01-01</p><p><b>manufacturer</b>: <a href="Organization-41004547000495.html">Display of Organization/41004547000495. Generated Summary: active: true; <span title="Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica 1}">Administração Pública</span>; name: Nome de 41004547000495; alias: Nome Fantasia de 41004547000495</a></p><p><b>lotNumber</b>: L-transient-1</p><h3>Performers</h3><table class="grid"><tr><td>-</td><td><b>Actor</b></td></tr><tr><td>*</td><td><a href="Practitioner-980016002400589.html">Generated Summary: Número de inscrição no Conselho Regional de Administração (CRA): BRACRA_123 (OFFICIAL); active: true; Practitioner(OFFICIAL)</a></td></tr></table><h3>ProtocolApplieds</h3><table class="grid"><tr><td>-</td><td><b>Extension</b></td><td><b>DoseNumber[x]</b></td></tr><tr><td>*</td><td></td><td>1</td></tr></table></div>
+        </text>
+        <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"/>
+              <code value="000907"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <status value="completed"/>
+        <vaccineCode>
+          <coding>
+            <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"/>
+            <code value="15"/>
+          </coding>
+        </vaccineCode>
+        <patient>
+          <identifier>
+            <system value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+            <value value="162338254590005"/>
+          </identifier>
+        </patient>
+        <occurrenceDateTime value="2020-01-01"/>
+        <manufacturer>
+          <reference value="Organization/41004547000495"/>
+          <display value="Display of Organization/41004547000495"/>
+        </manufacturer>
+        <lotNumber value="L-transient-1"/>
+        <performer>
+          <actor>
+            <reference value="Practitioner/980016002400589"/>
+          </actor>
+        </performer>
+        <protocolApplied>
+          <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal">
+            <valueCodeableConcept>
+              <coding>
+                <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"/>
+                <code value="1"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <doseNumberString value="1"/>
+        </protocolApplied>
+      </Immunization>
+    </resource>
+  </entry>
+</Bundle>

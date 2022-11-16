@@ -1,0 +1,93 @@
+{
+  "resourceType": "Organization",
+  "id": "1234567",
+  "meta": {
+    "profile": [
+      "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Atende SUS</b>: true</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude 1}\">POSTO DE SAUDE</span></p><p><b>name</b>: Nome de 1234567</p><p><b>alias</b>: Nome Fantasia de 1234567</p><p><b>address</b>: SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE 81 081 Atrás de Vitor Hugo ASA NORTE 315780 53 70673416 </p><p><b>partOf</b>: <a href=\"Organization-1234567.html\">Generated Summary: active: true; <span title=\"Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude 1}\">POSTO DE SAUDE</span>; name: Nome de 1234567; alias: Nome Fantasia de 1234567</a></p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtendeSUS-1.0",
+      "valueBoolean": true
+    }
+  ],
+  "active": true,
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude",
+          "code": "1"
+        }
+      ]
+    }
+  ],
+  "name": "Nome de 1234567",
+  "alias": [
+    "Nome Fantasia de 1234567"
+  ],
+  "address": [
+    {
+      "line": [
+        "SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE",
+        "81",
+        "081",
+        "Atrás de Vitor Hugo",
+        "ASA NORTE"
+      ],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType",
+              "valueString": "081"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "81"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+              "valueString": "Atrás de Vitor Hugo"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRBairro-1.0",
+              "valueString": "ASA NORTE"
+            }
+          ]
+        }
+      ],
+      "city": "315780",
+      "state": "53",
+      "postalCode": "70673416"
+    }
+  ],
+  "partOf": {
+    "reference": "Organization/1234567"
+  }
+}

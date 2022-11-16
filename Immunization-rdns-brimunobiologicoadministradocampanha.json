@@ -1,0 +1,72 @@
+{
+  "resourceType": "Immunization",
+  "id": "rdns-brimunobiologicoadministradocampanha",
+  "meta": {
+    "profile": [
+      "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Grupo de Atendimento</b>: <span title=\"Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento 000907}\">Enfermeiro(a)</span></p><p><b>status</b>: completed</p><p><b>vaccineCode</b>: <span title=\"Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico 15}\">BCG</span></p><p><b>patient</b>: <span></span></p><p><b>occurrence</b>: 2020-01-01</p><p><b>manufacturer</b>: <a href=\"Organization-41004547000495.html\">Display of Organization/41004547000495. Generated Summary: active: true; <span title=\"Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica 1}\">Administração Pública</span>; name: Nome de 41004547000495; alias: Nome Fantasia de 41004547000495</a></p><p><b>lotNumber</b>: L-transient-1</p><h3>Performers</h3><table class=\"grid\"><tr><td>-</td><td><b>Actor</b></td></tr><tr><td>*</td><td><a href=\"Practitioner-980016002400589.html\">Generated Summary: Número de inscrição no Conselho Regional de Administração (CRA): BRACRA_123 (OFFICIAL); active: true; Practitioner(OFFICIAL)</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td>-</td><td><b>Extension</b></td><td><b>DoseNumber[x]</b></td></tr><tr><td>*</td><td></td><td>1</td></tr></table></div>"
+  },
+  "extension": [
+    {
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento",
+            "code": "000907"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed",
+  "vaccineCode": {
+    "coding": [
+      {
+        "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+        "code": "15"
+      }
+    ]
+  },
+  "patient": {
+    "identifier": {
+      "system": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0",
+      "value": "162338254590005"
+    }
+  },
+  "occurrenceDateTime": "2020-01-01",
+  "manufacturer": {
+    "reference": "Organization/41004547000495",
+    "display": "Display of Organization/41004547000495"
+  },
+  "lotNumber": "L-transient-1",
+  "performer": [
+    {
+      "actor": {
+        "reference": "Practitioner/980016002400589"
+      }
+    }
+  ],
+  "protocolApplied": [
+    {
+      "extension": [
+        {
+          "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
+                "code": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "doseNumberString": "1"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="1234567"/>
+  <meta>
+    <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Atende SUS</b>: true</p><p><b>active</b>: true</p><p><b>type</b>: <span title="Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude 1}">POSTO DE SAUDE</span></p><p><b>name</b>: Nome de 1234567</p><p><b>alias</b>: Nome Fantasia de 1234567</p><p><b>address</b>: SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE 81 081 Atrás de Vitor Hugo ASA NORTE 315780 53 70673416 </p><p><b>partOf</b>: <a href="Organization-1234567.html">Generated Summary: active: true; <span title="Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude 1}">POSTO DE SAUDE</span>; name: Nome de 1234567; alias: Nome Fantasia de 1234567</a></p></div>
+  </text>
+  <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAtendeSUS-1.0">
+    <valueBoolean value="true"/>
+  </extension>
+  <active value="true"/>
+  <type>
+    <coding>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude"/>
+      <code value="1"/>
+    </coding>
+  </type>
+  <name value="Nome de 1234567"/>
+  <alias value="Nome Fantasia de 1234567"/>
+  <address>
+    <line value="SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+        <valueString value="SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE"/>
+      </extension>
+    </line>
+    <line value="81">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType">
+        <valueString value="081"/>
+      </extension>
+    </line>
+    <line value="081">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+        <valueString value="81"/>
+      </extension>
+    </line>
+    <line value="Atrás de Vitor Hugo">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator">
+        <valueString value="Atrás de Vitor Hugo"/>
+      </extension>
+    </line>
+    <line value="ASA NORTE">
+      <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRBairro-1.0">
+        <valueString value="ASA NORTE"/>
+      </extension>
+    </line>
+    <city value="315780"/>
+    <state value="53"/>
+    <postalCode value="70673416"/>
+  </address>
+  <partOf>
+    <reference value="Organization/1234567"/>
+  </partOf>
+</Organization>

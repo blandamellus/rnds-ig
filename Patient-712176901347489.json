@@ -1,0 +1,159 @@
+{
+  "resourceType": "Patient",
+  "id": "712176901347489",
+  "meta": {
+    "lastUpdated": "2017-11-20T13:05:22.699-02:00",
+    "profile": [
+      "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"
+    ]
+  },
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Qualidade do Cadastro do Indivíduo</b>: 90</p><p><b>Indivíduo Protegido</b>: false</p><p><b>País</b>: <span title=\"Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais 10}\">BRASIL</span></p><p><b>identifier</b>: Tax ID number: 99505976106 (OFFICIAL), Health Card Number: 712176901347489 (OFFICIAL), Health Card Number: 888176901347777 (SECONDARY)</p><p><b>active</b>: true</p><p><b>name</b>: DANILO MARINS(OFFICIAL)</p><p><b>telecom</b>: ph: 5595992110552(TEMP), <a href=\"mailto:patricia.gomes@example.com\">patricia.gomes@example.com</a></p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1984-05-02</p><p><b>deceased</b>: false</p><p><b>address</b>: SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE 81 081 Atrás de Vitor Hugo ASA NORTE 315780 53 70673416 (HOME)</p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQualidadeCadastroIndividuo-1.0",
+      "valuePositiveInt": 90
+    },
+    {
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoProtegido-1.0",
+      "valueBoolean": false
+    },
+    {
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
+            "code": "10"
+          }
+        ]
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "TAX"
+          }
+        ]
+      },
+      "value": "99505976106"
+    },
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "HC"
+          }
+        ]
+      },
+      "value": "712176901347489",
+      "period": {
+        "start": "2012-01-05T07:58:24-02:00"
+      }
+    },
+    {
+      "use": "secondary",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "HC"
+          }
+        ]
+      },
+      "value": "888176901347777",
+      "period": {
+        "start": "2012-01-05T07:58:24-02:00"
+      }
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "text": "DANILO MARINS"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "5595992110552",
+      "use": "temp"
+    },
+    {
+      "system": "email",
+      "value": "patricia.gomes@example.com",
+      "rank": 1
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1984-05-02",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "type": "postal",
+      "line": [
+        "SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE",
+        "81",
+        "081",
+        "Atrás de Vitor Hugo",
+        "ASA NORTE"
+      ],
+      "_line": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+              "valueString": "SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType",
+              "valueString": "081"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+              "valueString": "81"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator",
+              "valueString": "Atrás de Vitor Hugo"
+            }
+          ]
+        },
+        {
+          "extension": [
+            {
+              "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRBairro-1.0",
+              "valueString": "ASA NORTE"
+            }
+          ]
+        }
+      ],
+      "city": "315780",
+      "state": "53",
+      "postalCode": "70673416"
+    }
+  ]
+}

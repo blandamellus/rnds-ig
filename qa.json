@@ -1,0 +1,12 @@
+{
+  "url": "http://www.saude.gov.br/fhir/r4/ImplementationGuide/rnds",
+  "name": "IGRNDS",
+  "package-id": "example.fhir.uv.myig",
+  "ig-ver": "0.2.0",
+  "date": "Tue, 30 Nov, 2021 19:57:56 -0300",
+  "errs": 5,
+  "warnings": 6,
+  "hints": 159,
+  "version": "4.0.1",
+  "tool": "4.6.0 (3)"
+}

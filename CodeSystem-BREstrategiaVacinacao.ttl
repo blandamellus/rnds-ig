@@ -1,0 +1,97 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "BREstrategiaVacinacao"];
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2021-08-27T15:11:59.742-03:00"^^xsd:dateTime ]
+  ];
+  fhir:Resource.language [ fhir:value "pt"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt\" lang=\"pt\"><p>This code system http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"BREstrategiaVacinacao-0\"> </a></td><td>Sem registro no sistema de informação de origem</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BREstrategiaVacinacao-1\"> </a></td><td>Rotina</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BREstrategiaVacinacao-2\"> </a></td><td>Especial</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BREstrategiaVacinacao-3\"> </a></td><td>Bloqueio</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BREstrategiaVacinacao-4\"> </a></td><td>Intensificação</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BREstrategiaVacinacao-5\"> </a></td><td>Campanha indiscriminada</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BREstrategiaVacinacao-6\"> </a></td><td>Campanha seletiva</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BREstrategiaVacinacao-7\"> </a></td><td>Soroterapia</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BREstrategiaVacinacao-8\"> </a></td><td>Serviço Privado</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BREstrategiaVacinacao-9\"> </a></td><td>Monitoramento rápido de cobertura vacinal</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BREstrategiaVacinacao-10\"> </a></td><td>Pesquisa</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"];
+  fhir:CodeSystem.version [ fhir:value "0.2.0"];
+  fhir:CodeSystem.name [ fhir:value "BREstrategiaVacinacao"];
+  fhir:CodeSystem.title [ fhir:value "Estratégia de Vacinação"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2020-03-11T18:12:20.2627546+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Ministério da Saúde"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.gov.br/saude/pt-br" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Classifica a estratégia de vacinação adotada."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "0" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sem registro no sistema de informação de origem" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Rotina" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Especial" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Bloqueio" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Intensificação" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Campanha indiscriminada" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Campanha seletiva" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Soroterapia" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Serviço Privado" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Monitoramento rápido de cobertura vacinal" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "10" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Pesquisa" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

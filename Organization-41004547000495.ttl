@@ -1,0 +1,43 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/Organization/41004547000495> a fhir:Organization;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "41004547000495"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0";
+       fhir:index 0;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica 1}\">Administração Pública</span></p><p><b>name</b>: Nome de 41004547000495</p><p><b>alias</b>: Nome Fantasia de 41004547000495</p></div>"
+  ];
+  fhir:Organization.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Organization.type [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica" ];
+       fhir:Coding.code [ fhir:value "1" ]
+     ]
+  ];
+  fhir:Organization.name [ fhir:value "Nome de 41004547000495"];
+  fhir:Organization.alias [
+     fhir:value "Nome Fantasia de 41004547000495";
+     fhir:index 0
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/Organization/41004547000495.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

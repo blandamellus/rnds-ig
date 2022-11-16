@@ -1,0 +1,47 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/Practitioner/980016002400589> a fhir:Practitioner;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "980016002400589"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0";
+       fhir:index 0;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Número de inscrição no Conselho Regional de Administração (CRA): BRACRA_123 (OFFICIAL)</p><p><b>active</b>: true</p><p><b>name</b>: Practitioner(OFFICIAL)</p></div>"
+  ];
+  fhir:Practitioner.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador" ];
+         fhir:Coding.code [ fhir:value "BRACRA" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "BRACRA_123" ]
+  ];
+  fhir:Practitioner.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Practitioner.name [
+     fhir:index 0;
+     fhir:HumanName.use [ fhir:value "official" ];
+     fhir:HumanName.text [ fhir:value "Practitioner" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/Practitioner/980016002400589.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

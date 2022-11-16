@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="980016002400589"/>
+  <meta>
+    <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProfissional-1.0"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: Número de inscrição no Conselho Regional de Administração (CRA): BRACRA_123 (OFFICIAL)</p><p><b>active</b>: true</p><p><b>name</b>: Practitioner(OFFICIAL)</p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador"/>
+        <code value="BRACRA"/>
+      </coding>
+    </type>
+    <value value="BRACRA_123"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="official"/>
+    <text value="Practitioner"/>
+  </name>
+</Practitioner>

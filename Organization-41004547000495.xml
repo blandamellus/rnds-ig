@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="41004547000495"/>
+  <meta>
+    <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>type</b>: <span title="Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica 1}">Administração Pública</span></p><p><b>name</b>: Nome de 41004547000495</p><p><b>alias</b>: Nome Fantasia de 41004547000495</p></div>
+  </text>
+  <active value="true"/>
+  <type>
+    <coding>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica"/>
+      <code value="1"/>
+    </coding>
+  </type>
+  <name value="Nome de 41004547000495"/>
+  <alias value="Nome Fantasia de 41004547000495"/>
+</Organization>

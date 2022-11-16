@@ -1,0 +1,158 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/Patient/712176901347489> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "712176901347489"];
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2017-11-20T13:05:22.699-02:00"^^xsd:dateTime ];
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0";
+       fhir:index 0;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Qualidade do Cadastro do Indivíduo</b>: 90</p><p><b>Indivíduo Protegido</b>: false</p><p><b>País</b>: <span title=\"Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais 10}\">BRASIL</span></p><p><b>identifier</b>: Tax ID number: 99505976106 (OFFICIAL), Health Card Number: 712176901347489 (OFFICIAL), Health Card Number: 888176901347777 (SECONDARY)</p><p><b>active</b>: true</p><p><b>name</b>: DANILO MARINS(OFFICIAL)</p><p><b>telecom</b>: ph: 5595992110552(TEMP), <a href=\"mailto:patricia.gomes@example.com\">patricia.gomes@example.com</a></p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1984-05-02</p><p><b>deceased</b>: false</p><p><b>address</b>: SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE 81 081 Atrás de Vitor Hugo ASA NORTE 315780 53 70673416 (HOME)</p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQualidadeCadastroIndividuo-1.0" ];
+     fhir:Extension.valuePositiveInt [ fhir:value "90"^^xsd:positiveInteger ]
+  ], [
+     fhir:index 1;
+     fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoProtegido-1.0" ];
+     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ], [
+     fhir:index 2;
+     fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0" ];
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais" ];
+         fhir:Coding.code [ fhir:value "10" ]
+       ]
+     ]
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Coding.code [ fhir:value "TAX" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "99505976106" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Coding.code [ fhir:value "HC" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "712176901347489" ];
+     fhir:Identifier.period [
+       fhir:Period.start [ fhir:value "2012-01-05T07:58:24-02:00"^^xsd:dateTime ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Identifier.use [ fhir:value "secondary" ];
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
+         fhir:Coding.code [ fhir:value "HC" ]
+       ]
+     ];
+     fhir:Identifier.value [ fhir:value "888176901347777" ];
+     fhir:Identifier.period [
+       fhir:Period.start [ fhir:value "2012-01-05T07:58:24-02:00"^^xsd:dateTime ]
+     ]
+  ];
+  fhir:Patient.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.use [ fhir:value "official" ];
+     fhir:HumanName.text [ fhir:value "DANILO MARINS" ]
+  ];
+  fhir:Patient.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "5595992110552" ];
+     fhir:ContactPoint.use [ fhir:value "temp" ]
+  ], [
+     fhir:index 1;
+     fhir:ContactPoint.system [ fhir:value "email" ];
+     fhir:ContactPoint.value [ fhir:value "patricia.gomes@example.com" ];
+     fhir:ContactPoint.rank [ fhir:value "1"^^xsd:positiveInteger ]
+  ];
+  fhir:Patient.gender [ fhir:value "male"];
+  fhir:Patient.birthDate [ fhir:value "1984-05-02"^^xsd:date];
+  fhir:Patient.deceasedBoolean [ fhir:value "false"^^xsd:boolean];
+  fhir:Patient.address [
+     fhir:index 0;
+     fhir:Address.use [ fhir:value "home" ];
+     fhir:Address.type [ fhir:value "postal" ];
+     fhir:Address.line [
+       fhir:value "SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE";
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName" ];
+         fhir:Extension.valueString [ fhir:value "SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE" ]
+       ]
+     ], [
+       fhir:value "81";
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType" ];
+         fhir:Extension.valueString [ fhir:value "081" ]
+       ]
+     ], [
+       fhir:value "081";
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber" ];
+         fhir:Extension.valueString [ fhir:value "81" ]
+       ]
+     ], [
+       fhir:value "Atrás de Vitor Hugo";
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator" ];
+         fhir:Extension.valueString [ fhir:value "Atrás de Vitor Hugo" ]
+       ]
+     ], [
+       fhir:value "ASA NORTE";
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRBairro-1.0" ];
+         fhir:Extension.valueString [ fhir:value "ASA NORTE" ]
+       ]
+     ];
+     fhir:Address.city [ fhir:value "315780" ];
+     fhir:Address.state [ fhir:value "53" ];
+     fhir:Address.postalCode [ fhir:value "70673416" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://www.saude.gov.br/fhir/r4/Patient/712176901347489.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

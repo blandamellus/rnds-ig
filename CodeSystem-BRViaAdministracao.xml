@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRViaAdministracao"/>
+  <meta>
+    <lastUpdated value="2021-08-30T15:28:22.708-03:00"/>
+  </meta>
+  <language value="pt"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt" lang="pt"><p>This code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">0<a name="BRViaAdministracao-0"> </a></td><td>Sem registro no sistema de informação de origem</td></tr><tr><td style="white-space:nowrap">10885<a name="BRViaAdministracao-10885"> </a></td><td>Intradérmica</td></tr><tr><td style="white-space:nowrap">10890<a name="BRViaAdministracao-10890"> </a></td><td>Intramuscular</td></tr><tr><td style="white-space:nowrap">10898<a name="BRViaAdministracao-10898"> </a></td><td>Intravenosa</td></tr><tr><td style="white-space:nowrap">10907<a name="BRViaAdministracao-10907"> </a></td><td>Oral</td></tr><tr><td style="white-space:nowrap">10916<a name="BRViaAdministracao-10916"> </a></td><td>Subcutânea</td></tr></table></div>
+  </text>
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"/>
+  <version value="0.2.0"/>
+  <name value="BRViaAdministracao"/>
+  <title value="Via de Administração"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-03-11T18:28:42.5310735+00:00"/>
+  <publisher value="Ministério da Saúde"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gov.br/saude/pt-br"/>
+    </telecom>
+  </contact>
+  <description value="Classifica a via na qual foi administrada uma substância em um indivíduo."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <concept>
+    <code value="0"/>
+    <display value="Sem registro no sistema de informação de origem"/>
+  </concept>
+  <concept>
+    <code value="10885"/>
+    <display value="Intradérmica"/>
+  </concept>
+  <concept>
+    <code value="10890"/>
+    <display value="Intramuscular"/>
+  </concept>
+  <concept>
+    <code value="10898"/>
+    <display value="Intravenosa"/>
+  </concept>
+  <concept>
+    <code value="10907"/>
+    <display value="Oral"/>
+  </concept>
+  <concept>
+    <code value="10916"/>
+    <display value="Subcutânea"/>
+  </concept>
+</CodeSystem>

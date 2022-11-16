@@ -1,0 +1,68 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRViaAdministracao",
+  "meta": {
+    "lastUpdated": "2021-08-30T15:28:22.708-03:00"
+  },
+  "language": "pt",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt\" lang=\"pt\"><p>This code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"BRViaAdministracao-0\"> </a></td><td>Sem registro no sistema de informação de origem</td></tr><tr><td style=\"white-space:nowrap\">10885<a name=\"BRViaAdministracao-10885\"> </a></td><td>Intradérmica</td></tr><tr><td style=\"white-space:nowrap\">10890<a name=\"BRViaAdministracao-10890\"> </a></td><td>Intramuscular</td></tr><tr><td style=\"white-space:nowrap\">10898<a name=\"BRViaAdministracao-10898\"> </a></td><td>Intravenosa</td></tr><tr><td style=\"white-space:nowrap\">10907<a name=\"BRViaAdministracao-10907\"> </a></td><td>Oral</td></tr><tr><td style=\"white-space:nowrap\">10916<a name=\"BRViaAdministracao-10916\"> </a></td><td>Subcutânea</td></tr></table></div>"
+  },
+  "url": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+  "version": "0.2.0",
+  "name": "BRViaAdministracao",
+  "title": "Via de Administração",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-03-11T18:28:42.5310735+00:00",
+  "publisher": "Ministério da Saúde",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.gov.br/saude/pt-br"
+        }
+      ]
+    }
+  ],
+  "description": "Classifica a via na qual foi administrada uma substância em um indivíduo.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "concept": [
+    {
+      "code": "0",
+      "display": "Sem registro no sistema de informação de origem"
+    },
+    {
+      "code": "10885",
+      "display": "Intradérmica"
+    },
+    {
+      "code": "10890",
+      "display": "Intramuscular"
+    },
+    {
+      "code": "10898",
+      "display": "Intravenosa"
+    },
+    {
+      "code": "10907",
+      "display": "Oral"
+    },
+    {
+      "code": "10916",
+      "display": "Subcutânea"
+    }
+  ]
+}

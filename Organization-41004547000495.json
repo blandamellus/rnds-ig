@@ -1,0 +1,28 @@
+{
+  "resourceType": "Organization",
+  "id": "41004547000495",
+  "meta": {
+    "profile": [
+      "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica 1}\">Administração Pública</span></p><p><b>name</b>: Nome de 41004547000495</p><p><b>alias</b>: Nome Fantasia de 41004547000495</p></div>"
+  },
+  "active": true,
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNaturezaJuridica",
+          "code": "1"
+        }
+      ]
+    }
+  ],
+  "name": "Nome de 41004547000495",
+  "alias": [
+    "Nome Fantasia de 41004547000495"
+  ]
+}

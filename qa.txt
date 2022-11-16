@@ -1,0 +1,331 @@
+﻿IGRNDS : Validation Results
+=========================================
+
+err = 5, warn = 6, info = 159
+IG Publisher Version: 1.1.83 Out of date - current version is 1.1.89
+Generated Tue Nov 30 20:06:29 BRT 2021. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://www.saude.gov.br/fhir/r4)
+ Build Errors : 0 / 6 / 0
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\examples\organization-brestabelecimentosaude : 0 / 0 / 2
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\examples\organization-brpessoajuridicaprofissionalliberal-0 : 0 / 0 / 2
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\examples\rdns-brimunobiologicoadministradocampanha : 0 / 0 / 2
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\examples\rnds-brindividuo : 0 / 0 / 2
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\examples\rnds-brprofissional : 0 / 0 / 2
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\examples\rnds-brregistroimunobiologicoadministradocampanha-0 : 2 / 0 / 6
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\myig : 3 / 0 / 3
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRAdministradorTerceiro.StructureDefinition : 0 / 1 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRAtendeSUS.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRBairro.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRCBO.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRCondicaoMaternal.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRCondicaoMaternal.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRCondicaoMaternal.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRDivisaoGeograficaBrasil.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRDocumentoIndividuo.StructureDefinition : 0 / 0 / 3
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRDose.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRDose.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BREndereco.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BREstabelecimentoSaude.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BREstadoDocumento.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BREstadoEvento.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BREstrategiaVacinacao.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BREstrategiaVacinacao.StructureDefinition : 0 / 1 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BREstrategiaVacinacao.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BREstrategiaVacinacaoPesquisa.StructureDefinition : 0 / 1 / 3
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BREtniaIndigena.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BREtniaIndigena.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRFabricanteImunobiologico.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRFabricantePNI.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRGrupoAtendimento.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRGrupoAtendimento.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRGrupoAtendimento.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRImunobiologico.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRImunobiologico.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRImunobiologicoAdministradoCampanha.StructureDefinition-2.0 : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRIndividuo.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRIndividuoProtegido.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRJurisdicaoOrgaoExpedidor.StructureDefinition : 0 / 1 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRLocalAplicacao.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRLocalAplicacao.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRMeioContato.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRMunicipio.StructureDefinition : 0 / 1 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRMunicipio.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRNaturalizacao.StructureDefinition : 0 / 1 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRNaturezaJuridica.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRNaturezaJuridica.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRNomeIndividuo.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BROcupacao.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BROrgaoExpedidor.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BROrgaoExpedidor.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRPais.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRPais.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRPais.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRParentesIndividuo.StructureDefinition : 0 / 1 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRParentesco.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRParentesco.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRPessoaJuridicaProfissionalLiberal.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRProfissional.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRQualidadeCadastroIndividuo.StructureDefinition : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRRacaCor.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRRacaCor.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRRacaCorEtnia.StructureDefinition : 0 / 1 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRRegistroImunobiologicoAdministradoCampanha.StructureDefinition : 0 / 0 / 5
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRSexo.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRTipoDocumento.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRTipoDocumento.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRTipoDocumentoIndividuo.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRTipoEstabelecimentoSaude.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRTipoEstabelecimentoSaude.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRTipoIdentificador.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRTipoLogradouro.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRTipoLogradouro.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRUnidadeFederativa.ValueSet : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRViaAdministracao.CodeSystem : 0 / 0 / 4
+ D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\resources\BRViaAdministracao.ValueSet : 0 / 0 / 4
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/1234567.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/41004547000495.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Immunization/rdns-brimunobiologicoadministradocampanha.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/712176901347489.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/980016002400589.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/rnds-brregistroimunobiologicoadministradocampanha-0.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+== input\examples\organization-brestabelecimentosaude.json ==
+== input\examples\organization-brpessoajuridicaprofissionalliberal-0.json ==
+== input\examples\rdns-brimunobiologicoadministradocampanha.json ==
+== input\examples\rnds-brindividuo.json ==
+== input\examples\rnds-brprofissional.json ==
+== input\examples\rnds-brregistroimunobiologicoadministradocampanha-0.json ==
+ERROR: Bundle/rnds-brregistroimunobiologicoadministradocampanha-0: Bundle.entry[0].fullUrl: UUIDs must be valid
+INFORMATION: Bundle/rnds-brregistroimunobiologicoadministradocampanha-0: Bundle.entry[0].resource.ofType(Composition).type: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/doc-typecodes (http://hl7.org/fhir/ValueSet/doc-typecodes), and a coding is recommended to come from this value set) (codes = http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento#RIA)
+ERROR: Bundle/rnds-brregistroimunobiologicoadministradocampanha-0: Bundle.entry[1].fullUrl: UUIDs must be valid
+== input\myig.xml ==
+ERROR: ImplementationGuide.where(url = 'http://www.saude.gov.br/fhir/r4/ImplementationGuide/rnds'): Conformance resource D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\myig.xml - the canonical URL (http://www.saude.gov.br/fhir/r4/ImplementationGuide/example.fhir.uv.myig) does not match the URL (http://www.saude.gov.br/fhir/r4/ImplementationGuide/rnds)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: example.fhir.uv.myig/http://www.saude.gov.br/fhir/r4/ImplementationGuide/rnds
+INFORMATION: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+ERROR: D:\ProjetosDev\FHIR\cursoHL7\sample-2021-11-30\EquipeHL7\input\myig: URL Mismatch http://www.saude.gov.br/fhir/r4/ImplementationGuide/example.fhir.uv.myig vs http://www.saude.gov.br/fhir/r4/ImplementationGuide/rnds
+== input\resources\BRAdministradorTerceiro.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRAdministradorTerceiro-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRAdministradorTerceiro-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRAtendeSUS.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRAtendeSUS-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRAtendeSUS-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRBairro.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRBairro-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRBairro-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRCBO.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRCBO: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRCBO: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRCondicaoMaternal.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRCondicaoMaternal: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRCondicaoMaternal: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRCondicaoMaternal.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRCondicaoMaternal: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRCondicaoMaternal: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRCondicaoMaternal.ValueSet.xml ==
+INFORMATION: ValueSet/BRCondicaoMaternal-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRCondicaoMaternal-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRDivisaoGeograficaBrasil.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRDivisaoGeograficaBrasil: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRDivisaoGeograficaBrasil: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRDocumentoIndividuo.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRDocumentoIndividuo-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRDocumentoIndividuo-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRDose.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRDose: CodeSystem.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: CodeSystem/BRDose: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRDose: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRDose.ValueSet.xml ==
+INFORMATION: ValueSet/BRDose-1.0: ValueSet.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: ValueSet/BRDose-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRDose-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BREndereco.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BREndereco-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BREndereco-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BREstabelecimentoSaude.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BREstabelecimentoSaude-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BREstabelecimentoSaude-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BREstadoDocumento.ValueSet.xml ==
+INFORMATION: ValueSet/BREstadoDocumento-1.0: ValueSet.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: ValueSet/BREstadoDocumento-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BREstadoDocumento-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BREstadoEvento.ValueSet.xml ==
+INFORMATION: ValueSet/BREstadoEvento-1.0: ValueSet.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: ValueSet/BREstadoEvento-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BREstadoEvento-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BREstrategiaVacinacao.CodeSystem.xml ==
+INFORMATION: CodeSystem/BREstrategiaVacinacao: CodeSystem.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: CodeSystem/BREstrategiaVacinacao: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BREstrategiaVacinacao: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BREstrategiaVacinacao.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BREstrategiaVacinacao-1.0: StructureDefinition.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: StructureDefinition/BREstrategiaVacinacao-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BREstrategiaVacinacao-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BREstrategiaVacinacao.ValueSet.xml ==
+INFORMATION: ValueSet/BREstrategiaVacinacao-1.0: ValueSet.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: ValueSet/BREstrategiaVacinacao-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BREstrategiaVacinacao-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BREstrategiaVacinacaoPesquisa.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BREtniaIndigena.CodeSystem.xml ==
+INFORMATION: CodeSystem/BREtniaIndigena: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BREtniaIndigena: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BREtniaIndigena.ValueSet.xml ==
+INFORMATION: ValueSet/BREtniaIndigena-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BREtniaIndigena-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRFabricanteImunobiologico.ValueSet.xml ==
+INFORMATION: ValueSet/BRFabricanteImunobiologico-1.0: ValueSet.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: ValueSet/BRFabricanteImunobiologico-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRFabricanteImunobiologico-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRFabricantePNI.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRFabricantePNI: CodeSystem.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: CodeSystem/BRFabricantePNI: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRFabricantePNI: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRGrupoAtendimento.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRGrupoAtendimento: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRGrupoAtendimento: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRGrupoAtendimento.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRGrupoAtendimento: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRGrupoAtendimento: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRGrupoAtendimento.ValueSet.xml ==
+INFORMATION: ValueSet/BRGrupoAtendimento-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRGrupoAtendimento-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRImunobiologico.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRImunobiologico: CodeSystem.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: CodeSystem/BRImunobiologico: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRImunobiologico: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRImunobiologico.ValueSet.xml ==
+INFORMATION: ValueSet/BRImunobiologico-1.0: ValueSet.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: ValueSet/BRImunobiologico-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRImunobiologico-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRImunobiologicoAdministradoCampanha.StructureDefinition-2.0.xml ==
+INFORMATION: StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRImunobiologicoAdministradoCampanha-2.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRIndividuo.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRIndividuo-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRIndividuo-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRIndividuoProtegido.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRIndividuoProtegido-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRIndividuoProtegido-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRJurisdicaoOrgaoExpedidor.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRJurisdicaoOrgaoEmissor-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRLocalAplicacao.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRLocalAplicacao: CodeSystem.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: CodeSystem/BRLocalAplicacao: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRLocalAplicacao: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRLocalAplicacao.ValueSet.xml ==
+INFORMATION: ValueSet/BRLocalAplicacao-1.0: ValueSet.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: ValueSet/BRLocalAplicacao-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRLocalAplicacao-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRMeioContato.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRMeioContato-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRMeioContato-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRMunicipio.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRMunicipio-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRMunicipio-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRMunicipio.ValueSet.xml ==
+INFORMATION: ValueSet/BRMunicipio-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRMunicipio-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRNaturalizacao.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRNaturalizacao-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRNaturalizacao-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRNaturezaJuridica.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRNaturezaJuridica: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRNaturezaJuridica: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRNaturezaJuridica.ValueSet.xml ==
+INFORMATION: ValueSet/BRNaturezaJuridica-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRNaturezaJuridica-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRNomeIndividuo.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRNomeIndividuo-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRNomeIndividuo-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BROcupacao.ValueSet.xml ==
+INFORMATION: ValueSet/BROcupacao-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BROcupacao-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BROrgaoExpedidor.CodeSystem.xml ==
+INFORMATION: CodeSystem/BROrgaoExpedidor: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BROrgaoExpedidor: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BROrgaoExpedidor.ValueSet.xml ==
+INFORMATION: ValueSet/BROrgaoExpedidor-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BROrgaoExpedidor-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRPais.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRPais: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRPais: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRPais.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRPais-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRPais-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRPais.ValueSet.xml ==
+INFORMATION: ValueSet/BRPais-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRPais-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRParentesIndividuo.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRParentesIndividuo-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRParentesIndividuo-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRParentesco.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRParentesco: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRParentesco: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRParentesco.ValueSet.xml ==
+INFORMATION: ValueSet/BRParentesco-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRParentesco-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRPessoaJuridicaProfissionalLiberal.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRProfissional.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRProfissional-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRProfissional-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRQualidadeCadastroIndividuo.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRQualidadeCadastroIndividuo-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRQualidadeCadastroIndividuo-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRRacaCor.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRRacaCor: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRRacaCor: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRRacaCor.ValueSet.xml ==
+INFORMATION: ValueSet/BRRacaCor-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRRacaCor-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRRacaCorEtnia.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRRacaCorEtnia-1.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRRacaCorEtnia-1.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRRegistroImunobiologicoAdministradoCampanha.StructureDefinition.xml ==
+INFORMATION: StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0: StructureDefinition.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition.where(url = 'http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoCampanha-2.0'): The Implementation Guide contains no explicitly linked examples for this profile
+== input\resources\BRSexo.ValueSet.xml ==
+INFORMATION: ValueSet/BRSexo-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRSexo-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRTipoDocumento.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRTipoDocumento: CodeSystem.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: CodeSystem/BRTipoDocumento: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRTipoDocumento: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRTipoDocumento.ValueSet.xml ==
+INFORMATION: ValueSet/BRTipoDocumento-1.0: ValueSet.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: ValueSet/BRTipoDocumento-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRTipoDocumento-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRTipoDocumentoIndividuo.ValueSet.xml ==
+INFORMATION: ValueSet/BRTipoDocumentoIndividuo-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRTipoDocumentoIndividuo-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRTipoEstabelecimentoSaude.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRTipoEstabelecimentoSaude: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRTipoEstabelecimentoSaude: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRTipoEstabelecimentoSaude.ValueSet.xml ==
+INFORMATION: ValueSet/BRTipoEstabelecimentoSaude-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRTipoEstabelecimentoSaude-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRTipoIdentificador.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRTipoIdentificador: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRTipoIdentificador: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRTipoLogradouro.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRTipoLogradouro: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRTipoLogradouro: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRTipoLogradouro.ValueSet.xml ==
+INFORMATION: ValueSet/BRTipoLogradouro-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRTipoLogradouro-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRUnidadeFederativa.ValueSet.xml ==
+INFORMATION: ValueSet/BRUnidadeFederativa-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRUnidadeFederativa-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRViaAdministracao.CodeSystem.xml ==
+INFORMATION: CodeSystem/BRViaAdministracao: CodeSystem.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: CodeSystem/BRViaAdministracao: CodeSystem.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: CodeSystem/BRViaAdministracao: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated
+== input\resources\BRViaAdministracao.ValueSet.xml ==
+INFORMATION: ValueSet/BRViaAdministracao-1.0: ValueSet.language: The value provided ('pt') could not be validated in the absence of a terminology server
+INFORMATION: ValueSet/BRViaAdministracao-1.0: ValueSet.jurisdiction[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/ValueSet/jurisdiction because there is no terminology service
+INFORMATION: ValueSet/BRViaAdministracao-1.0: ValueSet.jurisdiction[0].coding[0]: Code System URI 'http://unstats.un.org/unsd/methods/m49/m49.htm' is unknown so the code cannot be validated

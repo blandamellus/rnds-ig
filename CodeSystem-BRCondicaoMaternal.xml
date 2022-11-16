@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRCondicaoMaternal"/>
+  <meta>
+    <lastUpdated value="2021-08-19T14:10:22.000-03:00"/>
+  </meta>
+  <language value="pt-BR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR"><p>This code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="BRCondicaoMaternal-1"> </a></td><td>Nenhuma</td></tr><tr><td style="white-space:nowrap">2<a name="BRCondicaoMaternal-2"> </a></td><td>Gestante</td></tr><tr><td style="white-space:nowrap">3<a name="BRCondicaoMaternal-3"> </a></td><td>Puérpera</td></tr></table></div>
+  </text>
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"/>
+  <version value="0.2.0"/>
+  <name value="BRCondicaoMaternal"/>
+  <title value="Condição Maternal"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-08-19T14:10:22-03:00"/>
+  <publisher value="Ministério da Saúde"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.gov.br/saude/pt-br"/>
+    </telecom>
+  </contact>
+  <description value="Indicação da condição maternal da pessoa vacinada."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Nenhuma"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Gestante"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Puérpera"/>
+  </concept>
+</CodeSystem>

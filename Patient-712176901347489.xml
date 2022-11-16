@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="712176901347489"/>
+  <meta>
+    <lastUpdated value="2017-11-20T13:05:22.699-02:00"/>
+    <profile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Qualidade do Cadastro do Indivíduo</b>: 90</p><p><b>Indivíduo Protegido</b>: false</p><p><b>País</b>: <span title="Codes: {http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais 10}">BRASIL</span></p><p><b>identifier</b>: Tax ID number: 99505976106 (OFFICIAL), Health Card Number: 712176901347489 (OFFICIAL), Health Card Number: 888176901347777 (SECONDARY)</p><p><b>active</b>: true</p><p><b>name</b>: DANILO MARINS(OFFICIAL)</p><p><b>telecom</b>: ph: 5595992110552(TEMP), <a href="mailto:patricia.gomes@example.com">patricia.gomes@example.com</a></p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1984-05-02</p><p><b>deceased</b>: false</p><p><b>address</b>: SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE 81 081 Atrás de Vitor Hugo ASA NORTE 315780 53 70673416 (HOME)</p></div>
+  </text>
+  <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQualidadeCadastroIndividuo-1.0">
+    <valuePositiveInt value="90"/>
+  </extension>
+  <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoProtegido-1.0">
+    <valueBoolean value="false"/>
+  </extension>
+  <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPais-1.0">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"/>
+        <code value="10"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="TAX"/>
+      </coding>
+    </type>
+    <value value="99505976106"/>
+  </identifier>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="HC"/>
+      </coding>
+    </type>
+    <value value="712176901347489"/>
+    <period>
+      <start value="2012-01-05T07:58:24-02:00"/>
+    </period>
+  </identifier>
+  <identifier>
+    <use value="secondary"/>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="HC"/>
+      </coding>
+    </type>
+    <value value="888176901347777"/>
+    <period>
+      <start value="2012-01-05T07:58:24-02:00"/>
+    </period>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="official"/>
+    <text value="DANILO MARINS"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="5595992110552"/>
+    <use value="temp"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="patricia.gomes@example.com"/>
+    <rank value="1"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="1984-05-02"/>
+  <deceasedBoolean value="false"/>
+  <address>
+    <use value="home"/>
+    <type value="postal"/>
+    <line value="SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+        <valueString value="SHC SW CHSW BLOCOS 03 04 05 SALAS INST DE SAUDE"/>
+      </extension>
+    </line>
+    <line value="81">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType">
+        <valueString value="081"/>
+      </extension>
+    </line>
+    <line value="081">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+        <valueString value="81"/>
+      </extension>
+    </line>
+    <line value="Atrás de Vitor Hugo">
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator">
+        <valueString value="Atrás de Vitor Hugo"/>
+      </extension>
+    </line>
+    <line value="ASA NORTE">
+      <extension url="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRBairro-1.0">
+        <valueString value="ASA NORTE"/>
+      </extension>
+    </line>
+    <city value="315780"/>
+    <state value="53"/>
+    <postalCode value="70673416"/>
+  </address>
+</Patient>
